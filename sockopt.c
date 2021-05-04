@@ -3,9 +3,9 @@
 #include<sys/socket.h>
 #include<arpa/inet.h>   //inet_addr
 #include<unistd.h>      //write
-#include <netinet/in.h>
-#include <sys/types.h>
-#include <stdlib.h>
+#include<netinet/in.h>
+#include<sys/types.h>
+#include<stdlib.h>
 
 int main(int argc , char *argv[])
 {
@@ -85,3 +85,4 @@ int main(int argc , char *argv[])
 
         return 0;
 }
+
